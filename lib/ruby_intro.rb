@@ -4,7 +4,7 @@
 
 def sum arr
   # YOUR CODE HERE
-  arr.reduce(0) { |sum, element| sum + element }
+  arr.reduce(0) { |sum, current| sum + current }
 end
 
 def max_2_sum arr
