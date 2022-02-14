@@ -39,11 +39,9 @@ def binary_multiple_of_4? s
 end
 
 # Part 3
-
 class BookInStock
 # YOUR CODE HERE
   attr_accessor :isbn, :price
-
   def initialize(isbn, price)
     raise ArgumentError if isbn.empty?
     raise ArgumentError unless price.positive?
